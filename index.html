@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_601f3ece748a51b67716a15ac5cefd8b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_601f3ece748a51b67716a15ac5cefd8b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_601f3ece748a51b67716a15ac5cefd8b = L.map(
+                "map_601f3ece748a51b67716a15ac5cefd8b",
+                {
+                    center: [18.2208, -66.5901],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e09bea42bf25bf65470945b138f0d097 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var marker_2aaed5e853758c82b39c2555fe4ed4fa = L.marker(
+                [18.467046, -66.73114],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_d8ee47a9c146c649debfc18ca7318d83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2aaed5e853758c82b39c2555fe4ed4fa.setIcon(icon_d8ee47a9c146c649debfc18ca7318d83);
+        
+    
+        var popup_be1250f0db157d35d86f69473f0b6d00 = L.popup({"maxWidth": 300});
+
+        
+            var html_0aa9770391967fe8179cfc33362fed33 = $(`<div id="html_0aa9770391967fe8179cfc33362fed33" style="width: 100.0%; height: 100.0%;">     <strong>HOSPITAL PAVĺA ARECIBO</strong><br>     PR-129, Km 0.7, Ave. San Luis, Arecibo, PR 00613<br>     (787) 650-7272<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.467046,-66.73114" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_be1250f0db157d35d86f69473f0b6d00.setContent(html_0aa9770391967fe8179cfc33362fed33);
+        
+
+        marker_2aaed5e853758c82b39c2555fe4ed4fa.bindPopup(popup_be1250f0db157d35d86f69473f0b6d00)
+        ;
+
+        
+    
+    
+            var marker_a813f1f256eb64a2dad0ce537febc0f9 = L.marker(
+                [18.473288, -66.71691],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_0587d8d257aa0493d355fd6cbddf88f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a813f1f256eb64a2dad0ce537febc0f9.setIcon(icon_0587d8d257aa0493d355fd6cbddf88f8);
+        
+    
+        var popup_8bf1dfd7498bbc1625f9de7eb765e333 = L.popup({"maxWidth": 300});
+
+        
+            var html_8ad252c4d1ac3d4ac79aa214ec756598 = $(`<div id="html_8ad252c4d1ac3d4ac79aa214ec756598" style="width: 100.0%; height: 100.0%;">     <strong>HOSPITAL METROPOLITANO DR. SUSONI, PAVĺA</strong><br>     Calle Palma #55, Arecibo, PR 00612<br>     (787) 650-1030<br>     <b>Status:</b> Low<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.473288,-66.71691" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_8bf1dfd7498bbc1625f9de7eb765e333.setContent(html_8ad252c4d1ac3d4ac79aa214ec756598);
+        
+
+        marker_a813f1f256eb64a2dad0ce537febc0f9.bindPopup(popup_8bf1dfd7498bbc1625f9de7eb765e333)
+        ;
+
+        
+    
+    
+            var marker_46ff5eb6aa09981fdc632ff1a391574a = L.marker(
+                [18.181013, -66.83318],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_2a680d656926c91af0422e75cbd33fb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_46ff5eb6aa09981fdc632ff1a391574a.setIcon(icon_2a680d656926c91af0422e75cbd33fb1);
+        
+    
+        var popup_a20e71cc97d31ea0e565d44d2897466d = L.popup({"maxWidth": 300});
+
+        
+            var html_8cf5936737c21fc7869b750b864ae8ee = $(`<div id="html_8cf5936737c21fc7869b750b864ae8ee" style="width: 100.0%; height: 100.0%;">     <strong>HOSPITAL GENERAL CASTAÑER</strong><br>     PR-135, Km 4.5, Bo. Castañer, Lares, PR 00631<br>     (787) 829-5010<br>     <b>Status:</b> Low<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.181013,-66.83318" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_a20e71cc97d31ea0e565d44d2897466d.setContent(html_8cf5936737c21fc7869b750b864ae8ee);
+        
+
+        marker_46ff5eb6aa09981fdc632ff1a391574a.bindPopup(popup_a20e71cc97d31ea0e565d44d2897466d)
+        ;
+
+        
+    
+    
+            var marker_b5d017b5b34223b32abad269bd6c127f = L.marker(
+                [18.433675, -66.47397],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_f86ed0e69294280d4aa331e10699ecee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b5d017b5b34223b32abad269bd6c127f.setIcon(icon_f86ed0e69294280d4aa331e10699ecee);
+        
+    
+        var popup_62b644e8b828d5128d3283c5f3b5986a = L.popup({"maxWidth": 300});
+
+        
+            var html_d8ac2874891ebcef1e57311938f2038a = $(`<div id="html_d8ac2874891ebcef1e57311938f2038a" style="width: 100.0%; height: 100.0%;">     <strong>DOCTORS CENTER HOSPITAL, MANATĺ</strong><br>     Carr. 2, Km 47.7, Manatí, PR 00674<br>     (787) 621-3372 (787) 854-3322<br>     <b>Status:</b> Medium<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.433675,-66.47397" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_62b644e8b828d5128d3283c5f3b5986a.setContent(html_d8ac2874891ebcef1e57311938f2038a);
+        
+
+        marker_b5d017b5b34223b32abad269bd6c127f.bindPopup(popup_62b644e8b828d5128d3283c5f3b5986a)
+        ;
+
+        
+    
+    
+            var marker_b7fe9ef2177434cbe5dad8c541deb34c = L.marker(
+                [18.434259, -66.4828],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_991501e6fdf207047844b62b96131e7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b7fe9ef2177434cbe5dad8c541deb34c.setIcon(icon_991501e6fdf207047844b62b96131e7f);
+        
+    
+        var popup_7658099a12740f17896600854b887989 = L.popup({"maxWidth": 300});
+
+        
+            var html_5fc1324c8e61a5b0bcc4534444daefba = $(`<div id="html_5fc1324c8e61a5b0bcc4534444daefba" style="width: 100.0%; height: 100.0%;">     <strong>MANATĺ MEDICAL CENTER DR. OTERO LOPEZ</strong><br>     Carr. 668, Calle Hernández Carrión, Urb. Atenas , Manatí, PR 00674<br>     (787) 621-3700<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.434259,-66.4828" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_7658099a12740f17896600854b887989.setContent(html_5fc1324c8e61a5b0bcc4534444daefba);
+        
+
+        marker_b7fe9ef2177434cbe5dad8c541deb34c.bindPopup(popup_7658099a12740f17896600854b887989)
+        ;
+
+        
+    
+    
+            var marker_0f4263f86da1fc0704f626e49a94ee8f = L.marker(
+                [18.434458, -66.47434],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_041545cc654edf3cd74e0b550d50e18d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0f4263f86da1fc0704f626e49a94ee8f.setIcon(icon_041545cc654edf3cd74e0b550d50e18d);
+        
+    
+        var popup_b2a254a1e71abeae37bccc4d7bd99a08 = L.popup({"maxWidth": 300});
+
+        
+            var html_551bb31ef1684364e5ae4112f2c5708b = $(`<div id="html_551bb31ef1684364e5ae4112f2c5708b" style="width: 100.0%; height: 100.0%;">     <strong>HEALTHSOUTH REHABILITATION HOSPITAL OF MANATĺ</strong><br>     PR-2, Km 47.7, Hospital Doctors Center, Manatí, PR 00674<br>     (787) 621-3800<br>     <b>Status:</b> Medium<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.434458,-66.47434" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_b2a254a1e71abeae37bccc4d7bd99a08.setContent(html_551bb31ef1684364e5ae4112f2c5708b);
+        
+
+        marker_0f4263f86da1fc0704f626e49a94ee8f.bindPopup(popup_b2a254a1e71abeae37bccc4d7bd99a08)
+        ;
+
+        
+    
+    
+            var marker_37cddc17bc563b0f53bf7f1335656314 = L.marker(
+                [18.267664, -66.70169],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_afb5344b8882e14faacdda1b3f430c28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_37cddc17bc563b0f53bf7f1335656314.setIcon(icon_afb5344b8882e14faacdda1b3f430c28);
+        
+    
+        var popup_97c41e4c7f2b182cf2c2da9db6a715cd = L.popup({"maxWidth": 300});
+
+        
+            var html_175aa2c9f7f9336d3d76607c7afdb5b2 = $(`<div id="html_175aa2c9f7f9336d3d76607c7afdb5b2" style="width: 100.0%; height: 100.0%;">     <strong>HOSPITAL METROPOLITANO DE LA MONTAÑA UTUADO, PAVĺA</strong><br>     Calle Isaac González Martínez, Esq. Ledesma, Utuado, PR 00641<br>     (787) 933-1100 (787) 689-7141<br>     <b>Status:</b> Low<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.267664,-66.70169" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_97c41e4c7f2b182cf2c2da9db6a715cd.setContent(html_175aa2c9f7f9336d3d76607c7afdb5b2);
+        
+
+        marker_37cddc17bc563b0f53bf7f1335656314.bindPopup(popup_97c41e4c7f2b182cf2c2da9db6a715cd)
+        ;
+
+        
+    
+    
+            var marker_077707b9455e093f4a4a6990eec63407 = L.marker(
+                [18.445708, -66.39897],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_379e034d7108243503993097baa49e0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_077707b9455e093f4a4a6990eec63407.setIcon(icon_379e034d7108243503993097baa49e0d);
+        
+    
+        var popup_28d65eb1fd3372f65ade342d395f1464 = L.popup({"maxWidth": 300});
+
+        
+            var html_9e49455de0a5a82b821c4622588aba30 = $(`<div id="html_9e49455de0a5a82b821c4622588aba30" style="width: 100.0%; height: 100.0%;">     <strong>INSTITUTO MÉDICO DEL NORTE, INC. (CENTRO MÉDICO WILMA N. VÁZQUEZ)</strong><br>     Carr. 2, Km 39.5, Vega Baja, PR 00693<br>     (787) 858-1580<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.445708,-66.39897" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_28d65eb1fd3372f65ade342d395f1464.setContent(html_9e49455de0a5a82b821c4622588aba30);
+        
+
+        marker_077707b9455e093f4a4a6990eec63407.bindPopup(popup_28d65eb1fd3372f65ade342d395f1464)
+        ;
+
+        
+    
+    
+            var marker_32c2950a2e24fa705d40856158ac44f5 = L.marker(
+                [18.463792, -66.72362],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_7386a58b58aef67fd95799f978391a18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_32c2950a2e24fa705d40856158ac44f5.setIcon(icon_7386a58b58aef67fd95799f978391a18);
+        
+    
+        var popup_104ee3d8cc93b8735bc54fb3e12cd8f1 = L.popup({"maxWidth": 300});
+
+        
+            var html_cc17eff40b9cbd350c56db38f0ae37f1 = $(`<div id="html_cc17eff40b9cbd350c56db38f0ae37f1" style="width: 100.0%; height: 100.0%;">     <strong>CDT DR. JOSÉ A. MARRERO NIEVES</strong><br>     Calle 4 #54, Urb. Arecibo Gardens, Arecibo, PR 00612<br>     (787) 878-5534<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.463792,-66.72362" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_104ee3d8cc93b8735bc54fb3e12cd8f1.setContent(html_cc17eff40b9cbd350c56db38f0ae37f1);
+        
+
+        marker_32c2950a2e24fa705d40856158ac44f5.bindPopup(popup_104ee3d8cc93b8735bc54fb3e12cd8f1)
+        ;
+
+        
+    
+    
+            var marker_42b91101bc1c07df483cfddbd8d48485 = L.marker(
+                [18.46576, -66.74039],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_b8133d1496e871c09b395aff17887cde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_42b91101bc1c07df483cfddbd8d48485.setIcon(icon_b8133d1496e871c09b395aff17887cde);
+        
+    
+        var popup_f5ab13c7afc085964f17ddeda59522f6 = L.popup({"maxWidth": 300});
+
+        
+            var html_fe8ab127869c5493890bfbb6db5b845a = $(`<div id="html_fe8ab127869c5493890bfbb6db5b845a" style="width: 100.0%; height: 100.0%;">     <strong>CDT DE VILLA DE LOS SANTOS</strong><br>     Calle 16 #V-1, Urb. Villa Los Santos, Arecibo, PR 00612<br>     (787) 879-1585<br>     <b>Status:</b> Medium<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.46576,-66.74039" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_f5ab13c7afc085964f17ddeda59522f6.setContent(html_fe8ab127869c5493890bfbb6db5b845a);
+        
+
+        marker_42b91101bc1c07df483cfddbd8d48485.bindPopup(popup_f5ab13c7afc085964f17ddeda59522f6)
+        ;
+
+        
+    
+    
+            var marker_88ded57acd10e37b451f19a0991d4ea4 = L.marker(
+                [18.47771, -66.75554],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_7700b14d016aad052f1e19ab663125ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_88ded57acd10e37b451f19a0991d4ea4.setIcon(icon_7700b14d016aad052f1e19ab663125ec);
+        
+    
+        var popup_6a5ee3a68354dd8be2f8c361fb92ade7 = L.popup({"maxWidth": 300});
+
+        
+            var html_5f310334a3ade7b919dcfde00a488e2b = $(`<div id="html_5f310334a3ade7b919dcfde00a488e2b" style="width: 100.0%; height: 100.0%;">     <strong>CDT DOCTORS CENTER ARECIBO</strong><br>     PR-2, Km 80.1, Bo. San Daniel, Arecibo PR 00612<br>     (787) 878-0000<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.47771,-66.75554" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_6a5ee3a68354dd8be2f8c361fb92ade7.setContent(html_5f310334a3ade7b919dcfde00a488e2b);
+        
+
+        marker_88ded57acd10e37b451f19a0991d4ea4.bindPopup(popup_6a5ee3a68354dd8be2f8c361fb92ade7)
+        ;
+
+        
+    
+    
+            var marker_7dd8c8d6efc629b2f949ef9729bd16f8 = L.marker(
+                [18.44243, -66.6352],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_37419386837023a1fe3e789422ed29a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7dd8c8d6efc629b2f949ef9729bd16f8.setIcon(icon_37419386837023a1fe3e789422ed29a0);
+        
+    
+        var popup_0f03a066a4be23d29477adef0c35bf6c = L.popup({"maxWidth": 300});
+
+        
+            var html_0f76fe5bc9e10d81ee36d3b96795b90e = $(`<div id="html_0f76fe5bc9e10d81ee36d3b96795b90e" style="width: 100.0%; height: 100.0%;">     <strong>CDT POLICLĺNICA FAMILIAR FACTOR</strong><br>     Carr. 2, Km 65.6, Bo. Factor, Arecibo, PR 00612<br>     (787) 881-9788<br>     <b>Status:</b> Low<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.44243,-66.6352" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_0f03a066a4be23d29477adef0c35bf6c.setContent(html_0f76fe5bc9e10d81ee36d3b96795b90e);
+        
+
+        marker_7dd8c8d6efc629b2f949ef9729bd16f8.bindPopup(popup_0f03a066a4be23d29477adef0c35bf6c)
+        ;
+
+        
+    
+    
+            var marker_6679dde49ce98260586f7371efdbc200 = L.marker(
+                [18.45683, -66.74644],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_531bc1ec7ad816563d198d5485d6964d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6679dde49ce98260586f7371efdbc200.setIcon(icon_531bc1ec7ad816563d198d5485d6964d);
+        
+    
+        var popup_800a849893da3d453a8330bbbf16427b = L.popup({"maxWidth": 300});
+
+        
+            var html_ddb03d14bb16fe8c7ac815e053421431 = $(`<div id="html_ddb03d14bb16fe8c7ac815e053421431" style="width: 100.0%; height: 100.0%;">     <strong>METRO PAVĺA CLINIC-ARECIBO</strong><br>     Carr. 129, Zona Industrial Victor Rojas 2, Arecibo, PR 00612<br>     (787) 650-0020<br>     <b>Status:</b> Low<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.45683,-66.74644" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_800a849893da3d453a8330bbbf16427b.setContent(html_ddb03d14bb16fe8c7ac815e053421431);
+        
+
+        marker_6679dde49ce98260586f7371efdbc200.bindPopup(popup_800a849893da3d453a8330bbbf16427b)
+        ;
+
+        
+    
+    
+            var marker_4b8c70cc9821a82c81a8579751ef5d65 = L.marker(
+                [18.4301, -66.564],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_2cada6c2571a373b2e4de3e4804c5755 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4b8c70cc9821a82c81a8579751ef5d65.setIcon(icon_2cada6c2571a373b2e4de3e4804c5755);
+        
+    
+        var popup_a52b5735b20936f778c7be56a63975c5 = L.popup({"maxWidth": 300});
+
+        
+            var html_f25ab4f8c4f85816a3fe7ce2f232cd7c = $(`<div id="html_f25ab4f8c4f85816a3fe7ce2f232cd7c" style="width: 100.0%; height: 100.0%;">     <strong>CDT ATLANTIC MEDICAL GROUP</strong><br>     Carr. 2, #1995, Cruce Dávila, Barceloneta, PR 00617<br>     (787) 846-4412<br>     <b>Status:</b> Low<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.4301,-66.564" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_a52b5735b20936f778c7be56a63975c5.setContent(html_f25ab4f8c4f85816a3fe7ce2f232cd7c);
+        
+
+        marker_4b8c70cc9821a82c81a8579751ef5d65.bindPopup(popup_a52b5735b20936f778c7be56a63975c5)
+        ;
+
+        
+    
+    
+            var marker_3321eeb0679acfe33739def6d720f200 = L.marker(
+                [18.4523, -66.5395],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_096c41dc1a56a77f0b25bea47071f64e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3321eeb0679acfe33739def6d720f200.setIcon(icon_096c41dc1a56a77f0b25bea47071f64e);
+        
+    
+        var popup_137d4f7b65e03ea26a69f1166093d503 = L.popup({"maxWidth": 300});
+
+        
+            var html_f493e10f5158a877b2f441cc8ff33f7b = $(`<div id="html_f493e10f5158a877b2f441cc8ff33f7b" style="width: 100.0%; height: 100.0%;">     <strong>CDT TMG MEDICAL GROUP</strong><br>     Calle Tomés Avila #1, Barceloneta, PR 00617<br>     (787) 846-6890<br>     <b>Status:</b> Medium<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.4523,-66.5395" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_137d4f7b65e03ea26a69f1166093d503.setContent(html_f493e10f5158a877b2f441cc8ff33f7b);
+        
+
+        marker_3321eeb0679acfe33739def6d720f200.bindPopup(popup_137d4f7b65e03ea26a69f1166093d503)
+        ;
+
+        
+    
+    
+            var marker_54f02ae5fa95cad827317f301364a764 = L.marker(
+                [18.4841, -66.8429],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_9e131c35e3de3d3d3902cbd4ac3df136 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_54f02ae5fa95cad827317f301364a764.setIcon(icon_9e131c35e3de3d3d3902cbd4ac3df136);
+        
+    
+        var popup_09ef9802c17e57f1b3ca3e25fad10b71 = L.popup({"maxWidth": 300});
+
+        
+            var html_dc1c4d2c34948a9af9f840b08c7380e1 = $(`<div id="html_dc1c4d2c34948a9af9f840b08c7380e1" style="width: 100.0%; height: 100.0%;">     <strong>CAMUY HEALTH SERVICES, INC.</strong><br>     Ave. Muñoz Rivera #63, Camuy, PR 00627<br>     (787) 262-1045<br>     <b>Status:</b> Low<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.4841,-66.8429" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_09ef9802c17e57f1b3ca3e25fad10b71.setContent(html_dc1c4d2c34948a9af9f840b08c7380e1);
+        
+
+        marker_54f02ae5fa95cad827317f301364a764.bindPopup(popup_09ef9802c17e57f1b3ca3e25fad10b71)
+        ;
+
+        
+    
+    
+            var marker_b6e2c9fe15e5e715c420c66cfd30929a = L.marker(
+                [18.33349, -66.46896],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_ff3fcc79cd783bd6e517f0b58d6ce90d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b6e2c9fe15e5e715c420c66cfd30929a.setIcon(icon_ff3fcc79cd783bd6e517f0b58d6ce90d);
+        
+    
+        var popup_333481ccb1c1a70c6aae077a1bde546d = L.popup({"maxWidth": 300});
+
+        
+            var html_c4d82a4b1ce7c35ea7f908220376fe22 = $(`<div id="html_c4d82a4b1ce7c35ea7f908220376fe22" style="width: 100.0%; height: 100.0%;">     <strong>CLINICAS DE CUIDADO MÉDICO, INC.</strong><br>     Calle Hospital #4, Ciales, PR 00638<br>     (787) 871-1098<br>     <b>Status:</b> Medium<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.33349,-66.46896" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_333481ccb1c1a70c6aae077a1bde546d.setContent(html_c4d82a4b1ce7c35ea7f908220376fe22);
+        
+
+        marker_b6e2c9fe15e5e715c420c66cfd30929a.bindPopup(popup_333481ccb1c1a70c6aae077a1bde546d)
+        ;
+
+        
+    
+    
+            var marker_72d93fa87f13aba20d6c6f5a4b5620e3 = L.marker(
+                [18.36317, -66.56503],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_03504c05f56a0fcc929d4f0450b202dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_72d93fa87f13aba20d6c6f5a4b5620e3.setIcon(icon_03504c05f56a0fcc929d4f0450b202dc);
+        
+    
+        var popup_906062eaa8793fd94659fd9541e087ab = L.popup({"maxWidth": 300});
+
+        
+            var html_4f5de5b5f38fc23e887f4a36d3d106e2 = $(`<div id="html_4f5de5b5f38fc23e887f4a36d3d106e2" style="width: 100.0%; height: 100.0%;">     <strong>POLICLĺNICA FAMILIAR FLORIDA - CDT</strong><br>     Calle Arismendi #72, Florida, PR 00650<br>     (787) 822-3446<br>     <b>Status:</b> Medium<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.36317,-66.56503" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_906062eaa8793fd94659fd9541e087ab.setContent(html_4f5de5b5f38fc23e887f4a36d3d106e2);
+        
+
+        marker_72d93fa87f13aba20d6c6f5a4b5620e3.bindPopup(popup_906062eaa8793fd94659fd9541e087ab)
+        ;
+
+        
+    
+    
+            var marker_731a2039af4a410c1ad0ede9ba8f81ff = L.marker(
+                [18.29692, -66.88148],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_e62426b2264785bd59c8a65019e42a52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_731a2039af4a410c1ad0ede9ba8f81ff.setIcon(icon_e62426b2264785bd59c8a65019e42a52);
+        
+    
+        var popup_33dbc8feb2ca9630885c9639fd72bbe7 = L.popup({"maxWidth": 300});
+
+        
+            var html_25396b4fed5204e6f65b81bb1b1f4661 = $(`<div id="html_25396b4fed5204e6f65b81bb1b1f4661" style="width: 100.0%; height: 100.0%;">     <strong>LARES MEDICAL CENTER - CDT</strong><br>     Carr. 111, Ave. Los Patriotas, Bo. Pueblo, Lares, PR  00669<br>     (787) 897-1444<br>     <b>Status:</b> Low<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.29692,-66.88148" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_33dbc8feb2ca9630885c9639fd72bbe7.setContent(html_25396b4fed5204e6f65b81bb1b1f4661);
+        
+
+        marker_731a2039af4a410c1ad0ede9ba8f81ff.bindPopup(popup_33dbc8feb2ca9630885c9639fd72bbe7)
+        ;
+
+        
+    
+    
+            var marker_b3a537e537aeb93d137e86e614ab6d3a = L.marker(
+                [18.42897, -66.4956],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_d7409610fcd005466b069257c66f75b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b3a537e537aeb93d137e86e614ab6d3a.setIcon(icon_d7409610fcd005466b069257c66f75b3);
+        
+    
+        var popup_00df8506a3e7bcd8c9f3076d8681d73b = L.popup({"maxWidth": 300});
+
+        
+            var html_62eefe2688caf7e91eb1cd4c9abc194f = $(`<div id="html_62eefe2688caf7e91eb1cd4c9abc194f" style="width: 100.0%; height: 100.0%;">     <strong>CDT DR. CÉSAR R. ROSA FEBLES MANATĺ</strong><br>     PR- 2, Km 50, Calle Quiñones 10, Manatí, PR 00674<br>     (787) 854-2292<br>     <b>Status:</b> Medium<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.42897,-66.4956" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_00df8506a3e7bcd8c9f3076d8681d73b.setContent(html_62eefe2688caf7e91eb1cd4c9abc194f);
+        
+
+        marker_b3a537e537aeb93d137e86e614ab6d3a.bindPopup(popup_00df8506a3e7bcd8c9f3076d8681d73b)
+        ;
+
+        
+    
+    
+            var marker_a8b949e9af64058fe02137949119906a = L.marker(
+                [18.4422, -66.5008],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_a4386e79ecb5d01abad5cf785893f610 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a8b949e9af64058fe02137949119906a.setIcon(icon_a4386e79ecb5d01abad5cf785893f610);
+        
+    
+        var popup_bc0ad1cea69a5a02a199208d9be765e6 = L.popup({"maxWidth": 300});
+
+        
+            var html_35bfc316e49190d891aa0aacc895447e = $(`<div id="html_35bfc316e49190d891aa0aacc895447e" style="width: 100.0%; height: 100.0%;">     <strong>CDT POLICLĺNICA DR. MELÉNDEZ</strong><br>     PR-685, Km 1.9, Bo. Tierras Nuevas, Manatí, PR 00674<br>     (787) 854-6999<br>     <b>Status:</b> Low<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.4422,-66.5008" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_bc0ad1cea69a5a02a199208d9be765e6.setContent(html_35bfc316e49190d891aa0aacc895447e);
+        
+
+        marker_a8b949e9af64058fe02137949119906a.bindPopup(popup_bc0ad1cea69a5a02a199208d9be765e6)
+        ;
+
+        
+    
+    
+            var marker_4ac14a02993aeb1ec862b68f0d0669bc = L.marker(
+                [18.4791, -66.9383],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_d6c15978b70a1155d9b4df3ce71f7187 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4ac14a02993aeb1ec862b68f0d0669bc.setIcon(icon_d6c15978b70a1155d9b4df3ce71f7187);
+        
+    
+        var popup_3733434e0ae47885ee446c031aede786 = L.popup({"maxWidth": 300});
+
+        
+            var html_791146adcf2d85cd06f33d363a7af0ae = $(`<div id="html_791146adcf2d85cd06f33d363a7af0ae" style="width: 100.0%; height: 100.0%;">     <strong>CDT POLICLĺNICA SHALOM</strong><br>     Carr. 2, Km. 101.1, Bo. Terranova, Quebradillas, PR 00678<br>     (787) 895-0914<br>     <b>Status:</b> Medium<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.4791,-66.9383" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_3733434e0ae47885ee446c031aede786.setContent(html_791146adcf2d85cd06f33d363a7af0ae);
+        
+
+        marker_4ac14a02993aeb1ec862b68f0d0669bc.bindPopup(popup_3733434e0ae47885ee446c031aede786)
+        ;
+
+        
+    
+    
+            var marker_c1018468223018a8afeb5f3c77e74c17 = L.marker(
+                [18.459, -66.902],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_d0b143cb2ca91f10d622bf79f55a6fab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c1018468223018a8afeb5f3c77e74c17.setIcon(icon_d0b143cb2ca91f10d622bf79f55a6fab);
+        
+    
+        var popup_d05e5b3d7333f4fb3bd72a4affd02ae5 = L.popup({"maxWidth": 300});
+
+        
+            var html_077a45e75a5e0e8fb635343a89ee8235 = $(`<div id="html_077a45e75a5e0e8fb635343a89ee8235" style="width: 100.0%; height: 100.0%;">     <strong>QUEBRADILLAS MEDICAL CENTER</strong><br>     PR-2, Km. 96.8, Bo. Cocos, Quebradillas, PR  00678<br>     (787) 895-6315<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.459,-66.902" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_d05e5b3d7333f4fb3bd72a4affd02ae5.setContent(html_077a45e75a5e0e8fb635343a89ee8235);
+        
+
+        marker_c1018468223018a8afeb5f3c77e74c17.bindPopup(popup_d05e5b3d7333f4fb3bd72a4affd02ae5)
+        ;
+
+        
+    
+    
+            var marker_54b40af1c60d9a3ae353d950778e7292 = L.marker(
+                [18.26512, -66.69871],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_769bb9e944ede7c6eacc66dd536a649f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_54b40af1c60d9a3ae353d950778e7292.setIcon(icon_769bb9e944ede7c6eacc66dd536a649f);
+        
+    
+        var popup_fc1aa9b9d2ed4c36d639db99362ddd32 = L.popup({"maxWidth": 300});
+
+        
+            var html_0f13a7e88511f7bc15de0ed5dfeb73e9 = $(`<div id="html_0f13a7e88511f7bc15de0ed5dfeb73e9" style="width: 100.0%; height: 100.0%;">     <strong>CENTRO DE DIAGNÓSTICO Y TRATAMIENTO DR. JUAN CAPARRÓS, INC.</strong><br>     Calle Betances #2, Esq. Morel, Utuado, PR 00641<br>     (787) 894-2288<br>     <b>Status:</b> Medium<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.26512,-66.69871" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_fc1aa9b9d2ed4c36d639db99362ddd32.setContent(html_0f13a7e88511f7bc15de0ed5dfeb73e9);
+        
+
+        marker_54b40af1c60d9a3ae353d950778e7292.bindPopup(popup_fc1aa9b9d2ed4c36d639db99362ddd32)
+        ;
+
+        
+    
+    
+            var marker_3fafa3b602fc7fe05fd4645dfaf5596e = L.marker(
+                [18.43221, -66.39537],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_f319c374190bc6cce8fcb7b2f621ff32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3fafa3b602fc7fe05fd4645dfaf5596e.setIcon(icon_f319c374190bc6cce8fcb7b2f621ff32);
+        
+    
+        var popup_7c90ba6ae0474b809f6624771ac08ae8 = L.popup({"maxWidth": 300});
+
+        
+            var html_84fc88d60d8b7b1eb097a2000999396a = $(`<div id="html_84fc88d60d8b7b1eb097a2000999396a" style="width: 100.0%; height: 100.0%;">     <strong>VEGA BAJA MEDICAL CDT</strong><br>     Ave. Villa Paseos 81, Urb. Villa Pinares, Vega Baja, PR 00693<br>     (787) 424-5454<br>     <b>Status:</b> Medium<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.43221,-66.39537" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_7c90ba6ae0474b809f6624771ac08ae8.setContent(html_84fc88d60d8b7b1eb097a2000999396a);
+        
+
+        marker_3fafa3b602fc7fe05fd4645dfaf5596e.bindPopup(popup_7c90ba6ae0474b809f6624771ac08ae8)
+        ;
+
+        
+    
+    
+            var marker_e1e0bd2f116016933d945f6029a8452c = L.marker(
+                [18.41716, -66.61115],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_aaac36a3dfa3509f8b55ad179f774e79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e1e0bd2f116016933d945f6029a8452c.setIcon(icon_aaac36a3dfa3509f8b55ad179f774e79);
+        
+    
+        var popup_1f664f468106a2123b1b953db1a497c1 = L.popup({"maxWidth": 300});
+
+        
+            var html_76df13f99de62f863a32d00acc2619e4 = $(`<div id="html_76df13f99de62f863a32d00acc2619e4" style="width: 100.0%; height: 100.0%;">     <strong>ATLANTIC MEDICAL CENTER, INC.</strong><br>     Carr. 639, Km 2.0, Sector Candelaria, Bo. Sabana Hoyos, Arecibo, PR 00688<br>     (787) 846-4412<br>     <b>Status:</b> Low<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.41716,-66.61115" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_1f664f468106a2123b1b953db1a497c1.setContent(html_76df13f99de62f863a32d00acc2619e4);
+        
+
+        marker_e1e0bd2f116016933d945f6029a8452c.bindPopup(popup_1f664f468106a2123b1b953db1a497c1)
+        ;
+
+        
+    
+    
+            var marker_acdceb247e6ad450e9d8152d74acdc03 = L.marker(
+                [18.473141, -66.71942],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_2989ed0f3f5336f36c1150d98d90d241 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_acdceb247e6ad450e9d8152d74acdc03.setIcon(icon_2989ed0f3f5336f36c1150d98d90d241);
+        
+    
+        var popup_e5e9893a48449e6a5ea5bd0d0655cfb1 = L.popup({"maxWidth": 300});
+
+        
+            var html_fcf3765b7d9afb07cb2f3f1eab717ec1 = $(`<div id="html_fcf3765b7d9afb07cb2f3f1eab717ec1" style="width: 100.0%; height: 100.0%;">     <strong>CORPORACIÓN DE SERVICIOS DE SALUD (IPA 19)</strong><br>     Calle Cervantes #11 (Antigua Casa Agrícola, Pueblo), Arecibo, PR<br>     (787) 680-2190<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.473141,-66.71942" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_e5e9893a48449e6a5ea5bd0d0655cfb1.setContent(html_fcf3765b7d9afb07cb2f3f1eab717ec1);
+        
+
+        marker_acdceb247e6ad450e9d8152d74acdc03.bindPopup(popup_e5e9893a48449e6a5ea5bd0d0655cfb1)
+        ;
+
+        
+    
+    
+            var marker_7b94154779343da13e985e63271c4cc4 = L.marker(
+                [18.43064, -66.56416],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_e79483f59e32cdb3009361cebdafa5f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7b94154779343da13e985e63271c4cc4.setIcon(icon_e79483f59e32cdb3009361cebdafa5f9);
+        
+    
+        var popup_19d82425015835014aa796b6177c5fb1 = L.popup({"maxWidth": 300});
+
+        
+            var html_83088ed6c8270f5f3644c24826310262 = $(`<div id="html_83088ed6c8270f5f3644c24826310262" style="width: 100.0%; height: 100.0%;">     <strong>ATLANTIC MEDICAL CENTER, INC. (BARCELONETA)</strong><br>     Carr. 2, Km 57.8, Cruce Dávila, Barceloneta, PR 00617<br>     (787) 846-4412<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.43064,-66.56416" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_19d82425015835014aa796b6177c5fb1.setContent(html_83088ed6c8270f5f3644c24826310262);
+        
+
+        marker_7b94154779343da13e985e63271c4cc4.bindPopup(popup_19d82425015835014aa796b6177c5fb1)
+        ;
+
+        
+    
+    
+            var marker_d33034fd60f52539c879667434e90f05 = L.marker(
+                [18.34104, -66.46881],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_f3fbb837e4b7400251d34d5be6b101fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d33034fd60f52539c879667434e90f05.setIcon(icon_f3fbb837e4b7400251d34d5be6b101fb);
+        
+    
+        var popup_a6a50882736a83d33a7aa7c438f42570 = L.popup({"maxWidth": 300});
+
+        
+            var html_65977bd4567b37f3c6fbd656db5eb4ea = $(`<div id="html_65977bd4567b37f3c6fbd656db5eb4ea" style="width: 100.0%; height: 100.0%;">     <strong>PRYMED INC.</strong><br>     Carr. 149, Km. 12.3, Ciales, PR 00638<br>     (787) 871-0601<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.34104,-66.46881" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_a6a50882736a83d33a7aa7c438f42570.setContent(html_65977bd4567b37f3c6fbd656db5eb4ea);
+        
+
+        marker_d33034fd60f52539c879667434e90f05.bindPopup(popup_a6a50882736a83d33a7aa7c438f42570)
+        ;
+
+        
+    
+    
+            var marker_1dae104ba4e8f4341348f5ed9f70f7ed = L.marker(
+                [18.36449, -66.57055],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_e3b1c472eee8ec38f68a4cc3069d5da1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1dae104ba4e8f4341348f5ed9f70f7ed.setIcon(icon_e3b1c472eee8ec38f68a4cc3069d5da1);
+        
+    
+        var popup_d67acbc6931704a7e822a0ca7e6261a5 = L.popup({"maxWidth": 300});
+
+        
+            var html_d42bb007257f64082ae2b550de1dc2fe = $(`<div id="html_d42bb007257f64082ae2b550de1dc2fe" style="width: 100.0%; height: 100.0%;">     <strong>CENTRO DE SERVICIOS PRIMARIOS DE SALUD, INC.</strong><br>     Calle Antonio L. Alcázar #7, Florida, PR 00664<br>     (787) 822-2170<br>     <b>Status:</b> Low<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.36449,-66.57055" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_d67acbc6931704a7e822a0ca7e6261a5.setContent(html_d42bb007257f64082ae2b550de1dc2fe);
+        
+
+        marker_1dae104ba4e8f4341348f5ed9f70f7ed.bindPopup(popup_d67acbc6931704a7e822a0ca7e6261a5)
+        ;
+
+        
+    
+    
+            var marker_1eaedda0139dfff4023d9ed010ae00e1 = L.marker(
+                [18.487476, -66.82556],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_3c714ffd2883d2680e451d258a6270c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1eaedda0139dfff4023d9ed010ae00e1.setIcon(icon_3c714ffd2883d2680e451d258a6270c2);
+        
+    
+        var popup_79dfd096d12c9f8701992f51e2e50104 = L.popup({"maxWidth": 300});
+
+        
+            var html_65400b856d05609cdae4dfb2cc55224b = $(`<div id="html_65400b856d05609cdae4dfb2cc55224b" style="width: 100.0%; height: 100.0%;">     <strong>CORPORACIÓN DE SERVICIOS MÉDICOS DE HATILLO, INC.</strong><br>     Ave. Dr. Susoni #166, Hatillo, PR 00659<br>     (787) 898-4190<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.487476,-66.82556" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_79dfd096d12c9f8701992f51e2e50104.setContent(html_65400b856d05609cdae4dfb2cc55224b);
+        
+
+        marker_1eaedda0139dfff4023d9ed010ae00e1.bindPopup(popup_79dfd096d12c9f8701992f51e2e50104)
+        ;
+
+        
+    
+    
+            var marker_a259f0fcbf921537b8424dc5b648a79b = L.marker(
+                [18.290388, -66.88543],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_47013589f56a8b0b59cdf474ca8d49d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a259f0fcbf921537b8424dc5b648a79b.setIcon(icon_47013589f56a8b0b59cdf474ca8d49d7);
+        
+    
+        var popup_d4d8fb82781a97de609c1df4f4d661f2 = L.popup({"maxWidth": 300});
+
+        
+            var html_3ea9e6db78ff28b03feb7b9092068156 = $(`<div id="html_3ea9e6db78ff28b03feb7b9092068156" style="width: 100.0%; height: 100.0%;">     <strong>CENTRO INTEGRADO DE SERVICIOS DE SALUD</strong><br>     Carr. 111, km 1.9, Ave. Los Patriotas, Lares, PR 00669<br>     (787) 897-2727<br>     <b>Status:</b> Low<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.290388,-66.88543" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_d4d8fb82781a97de609c1df4f4d661f2.setContent(html_3ea9e6db78ff28b03feb7b9092068156);
+        
+
+        marker_a259f0fcbf921537b8424dc5b648a79b.bindPopup(popup_d4d8fb82781a97de609c1df4f4d661f2)
+        ;
+
+        
+    
+    
+            var marker_bbfb4eaff1c65f810391d54d29167041 = L.marker(
+                [18.32595, -66.40428],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_6da24c364883f689d9968f1473d839e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bbfb4eaff1c65f810391d54d29167041.setIcon(icon_6da24c364883f689d9968f1473d839e4);
+        
+    
+        var popup_42581dcaf5d0f4f76a502b4dd1ea9410 = L.popup({"maxWidth": 300});
+
+        
+            var html_39f71ec712f3d53c70d621fc2c9345ca = $(`<div id="html_39f71ec712f3d53c70d621fc2c9345ca" style="width: 100.0%; height: 100.0%;">     <strong>MOROVIS COMMUNITY HEALTH CENTER, INC.</strong><br>     Ave. Corozal, Calle Patrón #2, Morovis, PR 00687<br>     (787) 862-3000<br>     <b>Status:</b> Medium<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.32595,-66.40428" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_42581dcaf5d0f4f76a502b4dd1ea9410.setContent(html_39f71ec712f3d53c70d621fc2c9345ca);
+        
+
+        marker_bbfb4eaff1c65f810391d54d29167041.bindPopup(popup_42581dcaf5d0f4f76a502b4dd1ea9410)
+        ;
+
+        
+    
+    
+            var marker_087091f0b3bf145884b8bef9b7e98642 = L.marker(
+                [18.471901, -66.93943],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_b6737ca1757b7d2ec76a58dc7b73bd40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_087091f0b3bf145884b8bef9b7e98642.setIcon(icon_b6737ca1757b7d2ec76a58dc7b73bd40);
+        
+    
+        var popup_60a13c10e544b67fa2435e55b22e3718 = L.popup({"maxWidth": 300});
+
+        
+            var html_0a473591533f6068645c5e33492e900c = $(`<div id="html_0a473591533f6068645c5e33492e900c" style="width: 100.0%; height: 100.0%;">     <strong>CENTRO INTEGRADOS DE SERVICIOS DE SALUD</strong><br>     Calle Rafols  #116, Esq. Del Carmen, Quebradillas, PR 00678<br>     (787) 895-2660<br>     <b>Status:</b> Low<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.471901,-66.93943" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_60a13c10e544b67fa2435e55b22e3718.setContent(html_0a473591533f6068645c5e33492e900c);
+        
+
+        marker_087091f0b3bf145884b8bef9b7e98642.bindPopup(popup_60a13c10e544b67fa2435e55b22e3718)
+        ;
+
+        
+    
+    
+            var marker_88e884f893c2c9311e8f72cb5da12f7b = L.marker(
+                [18.265764, -66.69837],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_0902007a0af78c2ced4f96dc155cdcfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_88e884f893c2c9311e8f72cb5da12f7b.setIcon(icon_0902007a0af78c2ced4f96dc155cdcfc);
+        
+    
+        var popup_c629e8881be15cb201905db0968b85b5 = L.popup({"maxWidth": 300});
+
+        
+            var html_ea8a74a75b89cda63f2c807443a7e57a = $(`<div id="html_ea8a74a75b89cda63f2c807443a7e57a" style="width: 100.0%; height: 100.0%;">     <strong>CORPORACIÓN DE SERVICIOS DE SALUD</strong><br>     Calle Antonio R. Barceló #5, Utuado, PR 00641<br>     (787) 680-2019<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.265764,-66.69837" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_c629e8881be15cb201905db0968b85b5.setContent(html_ea8a74a75b89cda63f2c807443a7e57a);
+        
+
+        marker_88e884f893c2c9311e8f72cb5da12f7b.bindPopup(popup_c629e8881be15cb201905db0968b85b5)
+        ;
+
+        
+    
+    
+            var marker_ad237201c8dc73405d26467986c6e7f7 = L.marker(
+                [18.447345, -66.40089],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_c7c2252a2a3dac674a058b6330acd16d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad237201c8dc73405d26467986c6e7f7.setIcon(icon_c7c2252a2a3dac674a058b6330acd16d);
+        
+    
+        var popup_23d6d1948afd004579bed797371e5eb5 = L.popup({"maxWidth": 300});
+
+        
+            var html_550ef48af269c29822a4e08567a94bb2 = $(`<div id="html_550ef48af269c29822a4e08567a94bb2" style="width: 100.0%; height: 100.0%;">     <strong>PRYMED, INC.</strong><br>     Carr. 2, Km 41.6, Plaza Jardines, Vega Baja, PR 00693<br>     (787) 680-2019<br>     <b>Status:</b> Low<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.447345,-66.40089" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_23d6d1948afd004579bed797371e5eb5.setContent(html_550ef48af269c29822a4e08567a94bb2);
+        
+
+        marker_ad237201c8dc73405d26467986c6e7f7.bindPopup(popup_23d6d1948afd004579bed797371e5eb5)
+        ;
+
+        
+    
+    
+            var marker_79f4ba115eac67b5a405addf50e1bd1d = L.marker(
+                [18.474, -66.7448],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_79782ee845665f095f79345092563016 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_79f4ba115eac67b5a405addf50e1bd1d.setIcon(icon_79782ee845665f095f79345092563016);
+        
+    
+        var popup_2d6e4605ed2d757511cf1ec6765f84e3 = L.popup({"maxWidth": 300});
+
+        
+            var html_45883e5cd539ce0e2ac3aa3436f13593 = $(`<div id="html_45883e5cd539ce0e2ac3aa3436f13593" style="width: 100.0%; height: 100.0%;">     <strong>FRESENIUS MEDICAL CARE ARECIBO</strong><br>     Ave. Miramar #1072,  Arecibo, PR 00612<br>     (787) 878-5956<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.474,-66.7448" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_2d6e4605ed2d757511cf1ec6765f84e3.setContent(html_45883e5cd539ce0e2ac3aa3436f13593);
+        
+
+        marker_79f4ba115eac67b5a405addf50e1bd1d.bindPopup(popup_2d6e4605ed2d757511cf1ec6765f84e3)
+        ;
+
+        
+    
+    
+            var marker_5a2207bb3072b025e406103c2f07b050 = L.marker(
+                [18.467, -66.731],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_a0bfb8efdc084c8cdb790273382c31be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5a2207bb3072b025e406103c2f07b050.setIcon(icon_a0bfb8efdc084c8cdb790273382c31be);
+        
+    
+        var popup_035946bd441e97f07018dac2eb732fb2 = L.popup({"maxWidth": 300});
+
+        
+            var html_6397d7885100f1f2d1e678e72d5acac3 = $(`<div id="html_6397d7885100f1f2d1e678e72d5acac3" style="width: 100.0%; height: 100.0%;">     <strong>FRESENIUS MEDICAL CARE ARECIBO NORTE HOSPITAL CAYETANO COLL Y TOSTE</strong><br>     Ave. San Luis, Carr. 129, Hospital Cayetano Coll y Toste (Pavía Arecibo) Suite 108, Arecibo, PR 00613<br>     (787) 815-1640<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.467,-66.731" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_035946bd441e97f07018dac2eb732fb2.setContent(html_6397d7885100f1f2d1e678e72d5acac3);
+        
+
+        marker_5a2207bb3072b025e406103c2f07b050.bindPopup(popup_035946bd441e97f07018dac2eb732fb2)
+        ;
+
+        
+    
+    
+            var marker_d5a2d2b9896626f3ab055b884d72a763 = L.marker(
+                [18.308, -66.878],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_7421f06d730391a7d4c3202723236f5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d5a2d2b9896626f3ab055b884d72a763.setIcon(icon_7421f06d730391a7d4c3202723236f5a);
+        
+    
+        var popup_52068f6ba56e96e5192904fa1f03591a = L.popup({"maxWidth": 300});
+
+        
+            var html_d32608dc32a2beeb5463e4b570e9d9bb = $(`<div id="html_d32608dc32a2beeb5463e4b570e9d9bb" style="width: 100.0%; height: 100.0%;">     <strong>ATLANTIS HEALTHCARE GROUP OF LARES</strong><br>     PR-129, Km. 26, Lares, PR 00669<br>     (787) 292-7979   Ext. 5800<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.308,-66.878" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_52068f6ba56e96e5192904fa1f03591a.setContent(html_d32608dc32a2beeb5463e4b570e9d9bb);
+        
+
+        marker_d5a2d2b9896626f3ab055b884d72a763.bindPopup(popup_52068f6ba56e96e5192904fa1f03591a)
+        ;
+
+        
+    
+    
+            var marker_9684e111a31c38ab4d43450894c63e36 = L.marker(
+                [18.433675, -66.47394],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_8f44cd5fc33e8a34099343b97cf20f45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9684e111a31c38ab4d43450894c63e36.setIcon(icon_8f44cd5fc33e8a34099343b97cf20f45);
+        
+    
+        var popup_2523cbc15f6fbd0a8f9e107466181481 = L.popup({"maxWidth": 300});
+
+        
+            var html_16f09c244b0903e467bb19da8f7e768d = $(`<div id="html_16f09c244b0903e467bb19da8f7e768d" style="width: 100.0%; height: 100.0%;">     <strong>ATLANTIS HEALTHCARE GROUP OF MANATĺ</strong><br>     Carr. 2, Km 47.7, Sector Cotto Sur, Predios Hospital Doctor's Center, Manatí, PR 00674<br>     (787) 854-3322 (787) 292-7979<br>     <b>Status:</b> Medium<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.433675,-66.47394" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_2523cbc15f6fbd0a8f9e107466181481.setContent(html_16f09c244b0903e467bb19da8f7e768d);
+        
+
+        marker_9684e111a31c38ab4d43450894c63e36.bindPopup(popup_2523cbc15f6fbd0a8f9e107466181481)
+        ;
+
+        
+    
+    
+            var marker_0e058bffa7b1f47b5b3a06389c92c795 = L.marker(
+                [18.4463, -66.3964],
+                {}
+            ).addTo(map_601f3ece748a51b67716a15ac5cefd8b);
+        
+    
+            var icon_90ef4c5116db7bf8864cd5ee88de2e62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0e058bffa7b1f47b5b3a06389c92c795.setIcon(icon_90ef4c5116db7bf8864cd5ee88de2e62);
+        
+    
+        var popup_8acb516e0d95a5bb1c961b25f0054588 = L.popup({"maxWidth": 300});
+
+        
+            var html_c8c351deb931d7ec7b2c775a602082e1 = $(`<div id="html_c8c351deb931d7ec7b2c775a602082e1" style="width: 100.0%; height: 100.0%;">     <strong>FRESENIUS MEDICAL CARE VEGA BAJA RENAL DC</strong><br>     Carr. 2, Km 39.5, Vega Baja, PR 00963<br>     (787) 858-3290<br>     <b>Status:</b> High<br>     <a href="https://www.google.com/maps/dir/?api=1&destination=18.4463,-66.3964" target="_blank">🧭 Get Directions</a>     </div>`)[0];
+            popup_8acb516e0d95a5bb1c961b25f0054588.setContent(html_c8c351deb931d7ec7b2c775a602082e1);
+        
+
+        marker_0e058bffa7b1f47b5b3a06389c92c795.bindPopup(popup_8acb516e0d95a5bb1c961b25f0054588)
+        ;
+
+        
+    
+</script>
+</html>
+<script>
+function haversineDistance(lat1, lon1, lat2, lon2) {
+    const R = 6371;
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+              Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+              Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    return R * c;
+}
+
+navigator.geolocation.getCurrentPosition(function(position) {
+    var userLat = position.coords.latitude;
+    var userLon = position.coords.longitude;
+
+    var closestMarker = null;
+    var closestDistance = Infinity;
+
+    var allMarkers = document.querySelectorAll('.leaflet-marker-icon');
+    allMarkers.forEach(function(marker) {
+        var lat = parseFloat(marker.getAttribute('data-lat'));
+        var lon = parseFloat(marker.getAttribute('data-lon'));
+
+        if (!isNaN(lat) && !isNaN(lon)) {
+            var dist = haversineDistance(userLat, userLon, lat, lon);
+            if (dist < closestDistance) {
+                closestDistance = dist;
+                closestMarker = marker;
+            }
+        }
+    });
+
+    if (closestMarker) {
+        closestMarker.style.filter = 'hue-rotate(120deg)';
+    }
+});
+</script>
